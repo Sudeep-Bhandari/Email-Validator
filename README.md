@@ -1,41 +1,47 @@
 # Email Validator
 
-A Python-based email validation tool that checks the syntax and format of email addresses to ensure they are valid and correctly formatted.
-
----
+A simple Python script for validating email addresses using regular expressions (`re` module). This tool helps verify if an email address is correctly formatted.
 
 ## Features
 
-- **Syntax Validation**: Ensures the email follows the correct format (e.g., `username@domain.com`).
-- **Domain Checking**: Confirms that the email domain has a valid structure.
-- **Error Handling**: Provides clear messages for invalid email formats.
-- **Customizable Logic**: Extend validation with additional rules (e.g., checking for disposable email domains).
-
----
+- Validates email addresses based on a regular expression pattern.
+- Provides instant feedback on whether an email is valid or invalid.
+- Simple and user-friendly command-line interface.
 
 ## Technologies Used
 
-- **Python**: Core programming language used for the project.
-- **Regex**: Regular expressions for pattern matching and email validation.
+- **Python**: Core programming language.
+- **`re` Module**: Used for regex-based email validation.
 
----
+## Installation and Usage
 
-## Demo
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Sudeep-Bhandari/Email-Validator.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd Email-Validator
+   
+3. Run the script:
+   ```bash
+   python Email-Validator.py
+   
+4. Validate emails:
+  - Enter an email address when prompted to check its validity.
+  - Type exit to quit the script.
 
-Run the script to validate email addresses directly from the terminal.  
+## Example Usage
+    ```bash
+    Welcome to Email Validator!
+    Enter an email address to validate (or type 'exit' to quit): test@example.com
+    'test@example.com' is a valid email address.
 
+    Enter an email address to validate (or type 'exit' to quit): invalid-email
+    'invalid-email' is NOT a valid email address.
 
-## Getting Started
-## Prerequisites
-Python 3.x: Ensure Python is installed on your system.
+    Enter an email address to validate (or type 'exit' to quit): exit
+    Goodbye!
 
-
-## Usage Instructions
-1. Run the script in your terminal.
-2. Enter an email address when prompted.
-3. The script will validate the email and provide feedback.
-
-## Installation
-### Clone the repository:
-```bash
-git clone https://github.com/Sudeep-Bhandari/Email-Validator.git
+## License
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. You are free to use, modify, and distribute it as per the license terms.
