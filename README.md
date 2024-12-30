@@ -31,17 +31,18 @@ A simple Python script for validating email addresses using regular expressions 
   - Enter an email address when prompted to check its validity.
   - Type exit to quit the script.
 
-## Example Usage
-    ```bash
-    Welcome to Email Validator!
-    Enter an email address to validate (or type 'exit' to quit): test@example.com
-    'test@example.com' is a valid email address.
-
-    Enter an email address to validate (or type 'exit' to quit): invalid-email
-    'invalid-email' is NOT a valid email address.
-
-    Enter an email address to validate (or type 'exit' to quit): exit
-    Goodbye!
 
 ## License
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. You are free to use, modify, and distribute it as per the license terms.
+
+## Example Usage
+   ```bash
+   Welcome to Email Validator!
+   Enter an email address to validate (or type 'exit' to quit): test@example.com
+   'test@example.com' is a valid email address.
+
+   Enter an email address to validate (or type 'exit' to quit): invalid-email
+   'invalid-email' is NOT a valid email address.
+
+   Enter an email address to validate (or type 'exit' to quit): exit
+   Goodbye!
